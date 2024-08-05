@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Autour+One&family=Barlow+Condensed:ital@1&family=Bebas+Neue&family=Mukta&family=Oswald:wght@300&family=PT+Sans+Narrow&family=Pacifico&family=Poppins:ital,wght@1,300&family=Roboto+Condensed&family=Space+Grotesk&family=Teko:wght@700&family=Vast+Shadow&display=swap');
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+border-radius: 46px;
+background: #26849c;
+box-shadow:  35px 35px 30px #1a5b6c,
+             -35px -35px 30px #32adcc;
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 9rem;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 700px;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  border-color: white;
+  border-radius: 12px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline{
+  display: inline; 
+}
